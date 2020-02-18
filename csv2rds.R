@@ -1,0 +1,15 @@
+c <- read.csv('lastest/city.csv',stringsAsFactors = F)
+
+colnames(c) <-  c('date','province','city','city_confirmed','city_cured','city_dead','city_suspected',
+           'confirmed','suspected','cured','dead','comment')
+Dataframe_2_S3 <- function(data){
+  S3 <- list(
+    data = data,
+    time = max(data$date) 
+  )
+  class(S3) <- 'nCov2019History'
+  return(S3)
+}
+
+b <- Dataframe_2_S3(c)
+saveRDS(b,'historical_data.rds')
