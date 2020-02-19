@@ -1,6 +1,7 @@
 # 每日早上 1:00 更新前一日的全部数据
 import pandas as pd
 import os, time
+from datetime import timedelta
 
 # 获取前一日的日期
 def get_time():
@@ -23,6 +24,7 @@ if update_time != '2020-%02d-%02d' % (m, d):
     tmp = pd.read_json('lastest/' + 'city_level_2020-%02d-%02dT00.csv' % (m,d))
     tmp['date'] = update_time
     df = df.append(tmp[columns])
+    df['date'] = pd.to_datetime(df['date']) - timedelta(days=1)
     df.sort_values("date",inplace=True)
     df.to_csv('lastest/city.csv',index=0)
     # 导出 rds 
