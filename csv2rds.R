@@ -5,7 +5,7 @@ colnames(c) <-  c('time','province','city','city_confirmed','city_cured','city_d
 Dataframe_2_S3 <- function(data){
   S3 <- list(
     data = data,
-    time = max(data$date) 
+    time = max(data$time) 
   )
   class(S3) <- 'nCov2019History'
   return(S3)
