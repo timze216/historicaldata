@@ -11,7 +11,7 @@ colnames(province) <- c('time','province','cum_confirm','cum_heal','cum_dead','s
 Dataframe_2_S3 <- function(data){
   S3 <- list(
     data = city,
-    province = province,
+    province = unique(province),
     time = max(data$time) 
   )
   class(S3) <- 'nCov2019History'
