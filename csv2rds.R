@@ -1,4 +1,4 @@
-df <- read.csv('lastest/city.csv',stringsAsFactors = F)
+df <- read.csv('lastest/city.csv',stringsAsFactors = F,encoding="UTF-8")
 
 colnames(df) <-  c('time','province','city','city_confirmed','city_cured','city_dead','city_suspected',
                   'confirmed','suspected','cured','dead','comment')
