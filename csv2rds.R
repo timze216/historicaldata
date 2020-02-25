@@ -6,7 +6,7 @@ df$time = as.Date(df$time,format='%Y-%m-%d')
 city <- df[,1:7]
 colnames(city) <- c('time','province','city','cum_confirm','cum_heal','cum_dead','suspected')
 province <- df[,c(1,2,8:11)]
-colnames(province) <- c('time','province','cum_confirm','cum_heal','cum_dead','suspected')
+colnames(province) <- c('time','province','cum_confirm','suspected','cum_heal','cum_dead')
 
 Dataframe_2_S3 <- function(data){
   S3 <- list(
