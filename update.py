@@ -17,11 +17,11 @@ if update_time != '2020-%02d-%02d' % (m, d):
     # 加载 lastest historical data
     df = pd.read_csv('lastest/city.csv')
     # 增量更新
-    shell = "wget http://69.171.70.18:5000/data/city_level_2020-%02d-%02dT00.csv -P lastest/" % (m,d)
+    shell = "wget http://69.171.70.18:5000/data/city_level_2020-%02d-%02dT10.csv -P lastest/" % (m,d)
     os.system(shell)
     columns = ['date','provinceShortName','city.cityName','city.confirmedCount','city.curedCount','city.deadCount','city.suspectedCount',
                'confirmedCount','suspectedCount','curedCount','deadCount','comment']
-    tmp = pd.read_json('lastest/' + 'city_level_2020-%02d-%02dT00.csv' % (m,d))
+    tmp = pd.read_json('lastest/' + 'city_level_2020-%02d-%02dT10.csv' % (m,d))
     tmp['date'] = update_time
     tmp['date'] = pd.to_datetime(tmp['date']) - timedelta(days=1)
     df = df.append(tmp[columns])
