@@ -3,7 +3,7 @@ name: CI
 on:
   watch:
   schedule:
-    - cron: '0 00 * * *'
+    - cron: '10 02 * * *'
       
 jobs:
   build:
