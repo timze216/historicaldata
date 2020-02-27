@@ -11,25 +11,25 @@ def get_time():
 m, d = get_time()
 
 # 判断是否已经更新
-update_time = open('lastest/update','r').read()
+update_time = open('dxylastest/update','r').read()
 if update_time != '2020-%02d-%02d' % (m, d):
     update_time = '2020-%02d-%02d' % (m, d)
     # 加载 lastest historical data
-    df = pd.read_csv('lastest/city.csv')
+    df = pd.read_csv('dxylastest/city.csv')
     # 增量更新
-    shell = "wget http://69.171.70.18:5000/data/city_level_2020-%02d-%02dT10.csv -P lastest/" % (m,d)
+    shell = "wget http://69.171.70.18:5000/data/city_level_2020-%02d-%02dT10.csv -P dxylastest/" % (m,d)
     os.system(shell)
     columns = ['date','provinceShortName','city.cityName','city.confirmedCount','city.curedCount','city.deadCount','city.suspectedCount',
                'confirmedCount','suspectedCount','curedCount','deadCount','comment']
-    tmp = pd.read_json('lastest/' + 'city_level_2020-%02d-%02dT10.csv' % (m,d))
+    tmp = pd.read_json('dxylastest/' + 'city_level_2020-%02d-%02dT10.csv' % (m,d))
     tmp['date'] = update_time
     tmp['date'] = pd.to_datetime(tmp['date']) - timedelta(days=1)
     df = df.append(tmp[columns])
     #df.sort_values("date",inplace=True)
-    df.to_csv('lastest/city.csv',index=0)
+    df.to_csv('dxylastest/city.csv',index=0)
     # 导出 rds 
     os.system('Rscript csv2rds.R')
     # clear
-    open('lastest/update','w').write(update_time)
+    open('dxylastest/update','w').write(update_time)
 else:
     print('everything is updated')

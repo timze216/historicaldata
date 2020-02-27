@@ -1,4 +1,4 @@
-df <- read.csv('lastest/city.csv',stringsAsFactors = F,encoding="UTF-8")
+df <- read.csv('dxylastest/city.csv',stringsAsFactors = F,encoding="UTF-8")
 
 colnames(df) <-  c('time','province','city','city_confirmed','city_cured','city_dead','city_suspected',
                    'confirmed','suspected','cured','dead','comment')
@@ -23,4 +23,4 @@ Dataframe_2_S3 <- function(data){
   return(S3)
 }
 b = Dataframe_2_S3(df)
-saveRDS(b,'dxy_historical_data.rds')
+saveRDS(b,'dxy_origin_historical_data.rds')

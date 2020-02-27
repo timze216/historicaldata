@@ -21,13 +21,13 @@ jobs:
     - name: run
       run: |
         pip3 install pandas
-        python3 dxy_update.py
+        python3 tt_update.py
         
     - name: commit
       run: |
         git config --global user.email "783557789@qq.com"
         git config --global user.name "Robot"
-        git add .; git commit -m 'dxy-update'
+        git add .; git commit -m 'tt-update'
 
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.5.0
