@@ -1,5 +1,5 @@
 df <- read.csv('dxylastest/city.csv',stringsAsFactors = F,encoding="UTF-8")
-
+#df <- unique(df)
 colnames(df) <-  c('time','province','city','city_confirmed','city_cured','city_dead','city_suspected',
                    'confirmed','suspected','cured','dead','comment')
 df$time = as.Date(df$time,format='%Y-%m-%d') 
