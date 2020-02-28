@@ -1,8 +1,8 @@
-city <- read.csv('/Users/timze/workstation/debug/github_Action/historicaldata/lastest/city_history.csv',stringsAsFactors = F,encoding="UTF-8")
+city <- read.csv('lastest/city_history.csv',stringsAsFactors = F,encoding="UTF-8")
 # date	country	countryCode	province	provinceCode	city	cityCode	confirmed	suspected	cured	dead
-province <- read.csv('/Users/timze/workstation/debug/github_Action/historicaldata/lastest/province_history.csv',stringsAsFactors = F,encoding="UTF-8") 
+province <- read.csv('lastest/province_history.csv',stringsAsFactors = F,encoding="UTF-8") 
 # date	country	countryCode	province	provinceCode	city	cityCode	confirmed	suspected	cured	dead
-worldwide <- read.csv('/Users/timze/workstation/debug/github_Action/historicaldata/lastest/worldwide_history.csv',stringsAsFactors = F,encoding="UTF-8") 
+worldwide <- read.csv('lastest/worldwide_history.csv',stringsAsFactors = F,encoding="UTF-8") 
 # date	country	countryCode	province	provinceCode	city	cityCode	confirmed	suspected	cured	dead
 
 city = city[,c('date','province','city','confirmed','cured','dead')]

@@ -15,35 +15,62 @@ worldwide = worldwide[,c('date','country','confirmed','cured','dead')]
 colnames(worldwide) = c('time','country','cum_confirm','cum_heal','cum_dead')
 worldwide$time = as.Date(worldwide$time,format='%Y-%m-%d')
 
-#spec_city = c('北京市','上海市','重庆市','香港特别行政区','澳门特别行政区','台湾省')
+f_p <- function(province) {
+  province = sub("省", "", province)
+  province = sub("自治区", "", province)
+  province = sub("市", "", province)
+  province = sub("特别行政区", "", province)
+  province = sub("维吾尔", "", province)
+  province = sub("壮族", "", province)
+  province = sub("回族", "", province)
+  return(province)
+}
 
-#for (i in spec_city) {
-#  city[which(city$province == i ),]$city = i
-#}
-trans_city <- function(city,f) {
-    res <- f(city)
+f_c <- function(city) {
+  city <- as.character(city)
+  city <- sub("市$", "", city)
+  city <- sub("地区$","", city)
+  city <- sub("省$","", city)
+  city <- sub("特别行政区$","", city)
+  city <- sub("土家族","", city)
+  city <- sub("蒙古族","", city)
+  city <- sub("哈尼族","", city)
+  city <- sub("布依族","", city)
+  city <- gsub(".族","", city)
+  city <- sub("自治","", city)
+  city[city == '神农架林区'] = '神农架'
+  city[city == '甘孜州'] = '甘孜'
+  city[city == '凉山州'] = '凉山'
+  return(city)
+}
+
+trans <- function(city,f) {
+  res <- f(city)
   return(res)
 }
 
 f1 <- function(city) {
-    city <- as.character(city)
-    city[city == '未公布来源'] = '地区待确认'
-    city[city == '所属地待确认'] = '地区待确认'
-    city[city == '未公布来源'] = '地区待确认'
-    city[city == '武汉来京'] = '外地来京'
-    city[city == '锡林郭勒盟'] = '锡林郭勒'
-    city[city == '伊犁哈萨克州'] = '伊犁'
-    city[city == '延边朝州'] = '延边'
-    return(city)
+  city <- as.character(city)
+  city[city == '未公布来源'] = '地区待确认'
+  city[city == '所属地待确认'] = '地区待确认'
+  city[city == '未公布来源'] = '地区待确认'
+  city[city == '武汉来京'] = '外地来京'
+  city[city == '锡林郭勒盟'] = '锡林郭勒'
+  city[city == '伊犁哈萨克州'] = '伊犁'
+  city[city == '延边朝州'] = '延边'
+  return(city)
 }
 f2 <- function(city) {
-    city <- as.character(city)
-    city <- sub("区$", "", city)
-    return(city)
+  city <- as.character(city)
+  city <- sub("区$", "", city)
+  return(city)
 }
-city$city = trans_city(city$city,f1)
+city$city = trans(city$city,f1)
 nn = city$province %in% c('北京市','上海市') #只处理北京上海
-city[nn,]$city = trans_city(city[nn,]$city,f2)
+city[nn,]$city = trans(city[nn,]$city,f2)
+
+province$province = trans(province$province,f_p)
+city$city = trans(city$city,f_c)
 
 Dataframe_2_S3 <- function(data){
   S3 <- list(
