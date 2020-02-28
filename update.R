@@ -70,6 +70,7 @@ nn = city$province %in% c('北京市','上海市') #只处理北京上海
 city[nn,]$city = trans(city[nn,]$city,f2)
 
 province$province = trans(province$province,f_p)
+city$province = trans(city$province,f_p)
 city$city = trans(city$city,f_c)
 
 Dataframe_2_S3 <- function(data){
