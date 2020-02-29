@@ -16,7 +16,7 @@ new_prov = rbind(b,province)
 Dataframe_2_S3 <- function(data){
   S3 <- list(
     data = new_city,
-    province = new_prov,
+    province = unique(new_prov),
     time = max(data$time) 
   )
   class(S3) <- 'nCov2019History'
