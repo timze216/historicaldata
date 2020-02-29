@@ -1,4 +1,4 @@
-# 每日早上 1:00 更新前一日的全部数据
+# 每日早上 8:00 更新前一日的全部数据
 import pandas as pd
 import os, time
 from datetime import timedelta
@@ -17,7 +17,7 @@ if update_time != '2020-%02d-%02d' % (m, d):
     # 加载 lastest historical data
     df = pd.read_csv('dxylastest/city.csv')
     # 增量更新
-    shell = "wget http://69.171.70.18:5000/data/city_level_2020-%02d-%02dT10.csv -P dxylastest/" % (m,d)
+    shell = "wget http://69.171.70.18:5000/data/city_level_2020-%02d-%02dT08.csv -P dxylastest/" % (m,d)
     os.system(shell)
     columns = ['date','provinceShortName','city.cityName','city.confirmedCount','city.curedCount','city.deadCount','city.suspectedCount',
                'confirmedCount','suspectedCount','curedCount','deadCount','comment']
