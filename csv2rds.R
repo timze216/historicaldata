@@ -8,8 +8,8 @@ colnames(city) <- c('time','province','city','cum_confirm','cum_heal','cum_dead'
 province <- df[,c(1,2,8:11)]
 colnames(province) <- c('time','province','cum_confirm','suspected','cum_heal','cum_dead')
 
-a = readRDS('old_city.rds')
-b = readRDS('old_prov.rds')
+a = readRDS('patch/old_city.rds')
+b = readRDS('patch/old_prov.rds')
 new_city = rbind(a,city)
 new_prov = rbind(b,province)
 
