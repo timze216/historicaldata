@@ -21,7 +21,7 @@ jobs:
     - name: run
       run: |
         pip3 install pandas
-        python3 tt_update.py
+        python3 update.py
         
     - name: commit
       run: |
