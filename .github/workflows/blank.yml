@@ -1,7 +1,6 @@
 name: dxy
 
 on:
-  watch:
   schedule:
     - cron: '5 01 * * *'
       
