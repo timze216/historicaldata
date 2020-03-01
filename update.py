@@ -7,9 +7,9 @@ def get_yesterday():
     t = time.localtime(time.time())
     d, m = t.tm_mday - 1,  t.tm_mon
     if d == 0:
-        if m in [1,3,5,7,8,10,12]:
+        if m in [1,2,4,6,8,9,11]:
             d = 31
-        elif m == 2:
+        elif m == 3:
             if t.tm_year % 4 == 0:
                 d = 29
             else:

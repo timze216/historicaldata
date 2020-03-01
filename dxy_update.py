@@ -3,7 +3,7 @@ import pandas as pd
 import os, time
 from datetime import timedelta
 
-# 获取前一日的日期
+# 获取日期
 def get_time():
     t = time.localtime(time.time())
     d, m = t.tm_mday,  t.tm_mon
