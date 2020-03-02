@@ -46,7 +46,7 @@ clean = pd.read_csv('lastest/clean.csv')
 print('getting data ...')
 tturl_github = 'https://raw.githubusercontent.com/canghailan/Wuhan-2019-nCoV/master/Wuhan-2019-nCoV.csv'
 tt = pd.read_csv(tturl_github)
-tt.to_csv('lastest/'+today+'.csv')
+tt.to_csv('lastest/'+today+'.csv',index=False)
 columns = ['date','country','province','city','confirmed','suspected', 'cured', 'dead']
 tt = tt[columns]
 tt = tt[tt.date == yesterday]
@@ -54,7 +54,7 @@ tt = tt[tt.date == yesterday]
 # 是否需要更新：
 if max(clean.date) < yesterday:
     clean = clean.append(tt)
-    clean.to_csv('lastest/clean.csv')
+    clean.to_csv('lastest/clean.csv',index=False)
     extract_data(clean)
     os.system('Rscript update.R')
     open('lastest/update.log','a').write('Added '+yesterday+ ' data')

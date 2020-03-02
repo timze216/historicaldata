@@ -26,6 +26,7 @@ if update_time != '2020-%02d-%02d' % (m, d):
     tmp['date'] = pd.to_datetime(tmp['date']) - timedelta(days=1)
     df = df.append(tmp[columns])
     #df.sort_values("date",inplace=True)
+    df.drop_duplicates(inplace=True)
     df.to_csv('dxylastest/city.csv',index=0)
     # 导出 rds 
     os.system('Rscript csv2rds.R')
