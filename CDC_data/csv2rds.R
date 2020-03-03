@@ -23,4 +23,4 @@ Dataframe_2_S3 <- function(data){
   return(S3)
 }
 b = Dataframe_2_S3(cn)
-saveRDS(b,'nhc_data.rds')
+saveRDS(b,'../nhc_data.rds')
