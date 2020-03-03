@@ -6,8 +6,8 @@ cn$time = as.Date(cn$time,format='%Y-%m-%d')
 
 gb <- read.csv('lastest/cdc_gb.csv',stringsAsFactors = F,encoding="UTF-8")
 gb <- unique(gb)
-gb <- gb[c("date","NAME","CAPITAL","name_cn","累计确诊","新增确诊")]
-colnames(gb) <- c('time','country','capital','country_cn','cum_confirm','add_confirm')
+gb <- gb[c("date","name_cn","累计确诊","新增确诊")]
+colnames(gb) <- c('time','country','cum_confirm','add_confirm')
 gb$time = as.Date(gb$time,format='%Y-%m-%d')
 
 
