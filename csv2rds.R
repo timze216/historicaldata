@@ -23,4 +23,4 @@ Dataframe_2_S3 <- function(data){
   return(S3)
 }
 b = Dataframe_2_S3(df)
-saveRDS(b,'dxy_origin_historical_data.rds')
+saveRDS(b,'dxy_data.rds')

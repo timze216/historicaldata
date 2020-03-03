@@ -81,4 +81,4 @@ Dataframe_2_S3 <- function(data){
   return(S3)
 }
 b = Dataframe_2_S3(worldwide)
-saveRDS(b,'dxy_historical_data.rds') # actually, it is github source data
+saveRDS(b,'github_data.rds') # actually, it is github source data
