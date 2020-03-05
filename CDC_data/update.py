@@ -36,7 +36,7 @@ os.system(shell2)
 with open('global/gb_yq_2020%02d%02d.json' % (m,d)) as f_in:
     j = json.load(f_in)
     df = prase_json(j)
-    column = ['date','NAME','CAPITAL','name_cn','地区国家','累计确诊','新增确诊']
+    column = ['date','name_cn','地区国家','累计确诊','新增确诊']
     clean = df[column]
     new_gb = clean[clean['累计确诊'] > 0]
     gb = gb.append(new_gb)
