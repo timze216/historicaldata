@@ -29,6 +29,7 @@ jobs:
       run: |
         git config --global user.email "783557789@qq.com"
         git config --global user.name "Robot"
+        git pull
         git add .; git commit -m 'dxy-update'
 
     - name: GitHub Push

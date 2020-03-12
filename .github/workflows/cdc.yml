@@ -1,6 +1,7 @@
 name: cdc
 
 on:
+  watch:
   schedule:
     - cron: '10 05 * * *'
       
@@ -26,6 +27,7 @@ jobs:
       run: |
         git config --global user.email "783557789@qq.com"
         git config --global user.name "Robot"
+        git pull
         git add .; git commit -m 'cdc-update'
 
     - name: GitHub Push

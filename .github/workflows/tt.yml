@@ -28,6 +28,7 @@ jobs:
     - name: commit
       run: |
         git config --global user.email "783557789@qq.com"
+        git pull
         git config --global user.name "Robot"
         git add .; git commit -m 'tt-update'
 
