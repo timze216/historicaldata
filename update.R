@@ -12,6 +12,11 @@ worldwide = worldwide[,c('date','country','confirmed','cured','dead')]
 colnames(worldwide) = c('time','country','cum_confirm','cum_heal','cum_dead')
 worldwide$time = as.Date(worldwide$time,format='%Y-%m-%d')
 
+worldwide$country[which(worldwide$country == '孟加拉国')] <- '孟加拉' 
+worldwide$country[which(worldwide$country == '钻石公主号邮轮')] <- '钻石号邮轮'
+worldwide = worldwide[-which(worldwide$country == '圣马丁'),] 
+worldwide = worldwide[-which(worldwide$country == '圣巴泰勒米'),] 
+
 f_p <- function(province) {
   province = sub("省", "", province)
   province = sub("自治区", "", province)
