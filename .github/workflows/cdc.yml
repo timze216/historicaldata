@@ -1,7 +1,6 @@
 name: cdc
 
 on:
-  watch:
   schedule:
     - cron: '10 05 * * *'
       
