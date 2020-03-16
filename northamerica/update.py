@@ -8,6 +8,7 @@ url = 'https://coronavirus.1point3acres.com/'
 source = requests.get(url).text
 today = time.strftime('%Y-%m-%d',time.localtime(time.time()))
 yesterday = str(pd.to_datetime(today) - timedelta(days=1))
+sel = html.fromstring(source) 
 # America data table
 city = sel.xpath('//*[@id="map"]/div[2]/div[1]/div[4]/div/div/span[1]/text()')
 cum_confirm = sel.xpath('//*[@id="map"]/div[2]/div[1]/div[4]/div/div/span[2]/text()')

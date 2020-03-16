@@ -28,6 +28,7 @@ for id,name in zip(b.id,b.name):
     c = requests.get(url2).json()
     d = json.loads(c['country_data'][id])['provinces']
     try:
+        assert len(d) > 0
         for i in range(len(d)):
             d[i]['updateDate'] = yesterday
             d[i]['confirmedTotal'] = d[i]['total']['confirmedTotal']
