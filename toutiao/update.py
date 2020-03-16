@@ -3,7 +3,7 @@ import pandas as pd
 import time
 from datetime import timedelta
 today = time.strftime('%Y-%m-%d',time.localtime(time.time()))
-yesterday = pd.to_datetime(today) - timedelta(days=1)
+yesterday = str(pd.to_datetime(today) - timedelta(days=1))
 
 # 今日头条
 url = 'https://i.snssdk.com/ugc/hotboard_fe/hot_list/template/hot_list/forum_tab.html'

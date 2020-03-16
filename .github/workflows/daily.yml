@@ -3,7 +3,7 @@ name: toutiao
 on:
   watch:
   schedule:
-    - cron: '35 00 * * *'
+    - cron: '45 00 * * *'
       
 jobs:
   build:

@@ -3,7 +3,7 @@ name: northamerica
 on:
   watch:
   schedule:
-    - cron: '25 08 * * *'
+    - cron: '30 08 * * *'
       
 jobs:
   build:
