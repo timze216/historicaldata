@@ -3,8 +3,8 @@ import pandas as pd
 import time
 from datetime import timedelta
 today = time.strftime('%Y-%m-%d',time.localtime(time.time()))
-yesterday = str(pd.to_datetime(today) - timedelta(days=1))
-
+yesterday = pd.to_datetime(today) - timedelta(days=1)
+yesterday = str(yesterday).split()[0]
 # 今日头条
 url = 'https://i.snssdk.com/ugc/hotboard_fe/hot_list/template/hot_list/forum_tab.html'
 a = requests.get('https://i.snssdk.com/forum/ncov_data/?data_type=%5B2%2C4%5D').json()
