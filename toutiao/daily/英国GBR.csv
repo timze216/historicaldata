@@ -1,6 +1,6 @@
 id,name,cities,series,updateDate,isTreatingNumClear,confirmedTotal,suspectedTotal,curesTotal,deathsTotal,treatingTotal
-826ENG,英格兰,,,2020-03-17,False,0,,0,0,0
-826SCT,苏格兰,,,2020-03-17,False,0,,0,0,0
-826WLS,威尔士,,,2020-03-17,False,0,,0,0,0
-826NIR,北爱尔兰,,,2020-03-17,False,0,,0,0,0
-8260xx,未公布来源,,,2020-03-17,False,0,,0,0,0
+826ENG,英格兰,,,2020-03-18,False,1196,,0,48,1148
+826SCT,苏格兰,,,2020-03-18,False,153,,0,1,152
+826WLS,威尔士,,,2020-03-18,False,124,,0,0,124
+826NIR,北爱尔兰,,,2020-03-18,False,52,,0,0,52
+8260xx,未公布来源,,,2020-03-18,False,424,,52,21,351
