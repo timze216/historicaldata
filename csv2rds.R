@@ -13,6 +13,9 @@ b = readRDS('patch/old_prov.rds')
 new_city = rbind(a,city)
 new_prov = rbind(b,province)
 
+new_city$country = '中国'
+new_prov$country = '中国'
+
 Dataframe_2_S3 <- function(data){
   S3 <- list(
     data = new_city,

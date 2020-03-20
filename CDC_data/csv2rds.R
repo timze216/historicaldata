@@ -11,6 +11,7 @@ colnames(gb) <- c('time','country','cum_confirm','add_confirm')
 gb$time = as.Date(gb$time,format='%Y-%m-%d')
 gb[which(gb$country == '其他'),]$country = 'Other'
 
+cn$country = '中国'
 
 Dataframe_2_S3 <- function(data){
   S3 <- list(
