@@ -2,11 +2,11 @@ city <- read.csv('lastest/city_history.csv',stringsAsFactors = F,encoding="UTF-8
 province <- read.csv('lastest/province_history.csv',stringsAsFactors = F,encoding="UTF-8") 
 worldwide <- read.csv('lastest/worldwide_history.csv',stringsAsFactors = F,encoding="UTF-8") 
 
-city = city[,c('date','province','city','confirmed','cured','dead','suspected')]
-colnames(city) = c('time','province','city','cum_confirm','cum_heal','cum_dead','suspected')
+city = city[,c('date','country','province','city','confirmed','cured','dead','suspected')]
+colnames(city) = c('time','country','province','city','cum_confirm','cum_heal','cum_dead','suspected')
 city$time = as.Date(city$time,format='%Y-%m-%d')
-province = province[,c('date','province','confirmed','cured','dead','suspected')]
-colnames(province) = c('time','province','cum_confirm','cum_heal','cum_dead','suspected')
+province = province[,c('date','country','province','confirmed','cured','dead','suspected')]
+colnames(province) = c('time','country','province','cum_confirm','cum_heal','cum_dead','suspected')
 province$time = as.Date(province$time,format='%Y-%m-%d')
 worldwide = worldwide[,c('date','country','confirmed','cured','dead')]
 colnames(worldwide) = c('time','country','cum_confirm','cum_heal','cum_dead')
