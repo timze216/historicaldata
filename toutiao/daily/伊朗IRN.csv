@@ -1,33 +1,33 @@
 id,name,cities,series,updateDate,isTreatingNumClear,confirmedTotal,suspectedTotal,curesTotal,deathsTotal,treatingTotal
-364007,德黑兰,,,2020-03-19,False,4397,,0,0,4397
-364004,伊斯法罕,,,2020-03-19,False,1646,,0,0,1646
-364021,马赞德兰,,,2020-03-19,False,1552,,0,1,1551
-364026,库姆,,,2020-03-19,False,1105,,49,2,1054
-364019,吉兰,,,2020-03-19,False,997,,0,0,997
-364032,厄尔布尔士,,,2020-03-19,False,967,,0,0,967
-364022,中央省,,,2020-03-19,False,829,,0,0,829
-364030,呼罗珊,,,2020-03-19,False,711,,0,0,711
-364001,东阿塞拜疆,,,2020-03-19,False,629,,0,0,629
-364012,塞姆南,,,2020-03-19,False,593,,0,0,593
-364028,加兹温,,,2020-03-19,False,573,,0,0,573
-364025,亚兹德,,,2020-03-19,False,540,,0,0,540
-364014,法尔斯,,,2020-03-19,False,407,,0,0,407
-364020,洛雷斯坦,,,2020-03-19,False,400,,0,0,400
-364010,胡齐斯坦,,,2020-03-19,False,381,,0,0,381
-364027,戈勒斯坦,,,2020-03-19,False,360,,0,0,360
-364002,西阿塞拜疆,,,2020-03-19,False,326,,0,0,326
-364011,赞詹,,,2020-03-19,False,287,,0,0,287
-364003,阿尔达比勒,,,2020-03-19,False,229,,0,0,229
-364016,库尔德斯坦,,,2020-03-19,False,200,,0,0,200
-364024,哈马丹,,,2020-03-19,False,175,,0,0,175
-364017,克尔曼沙汗,,,2020-03-19,False,158,,0,0,158
-364029,南呼罗珊,,,2020-03-19,False,145,,0,0,145
-364015,克尔曼,,,2020-03-19,False,141,,0,0,141
-364023,霍尔木兹甘,,,2020-03-19,False,129,,0,0,129
-364005,伊拉姆,,,2020-03-19,False,128,,0,0,128
-364031,北呼罗珊,,,2020-03-19,False,121,,0,0,121
-364013,锡斯坦·俾路支斯坦,,,2020-03-19,False,106,,0,0,106
-364008,恰哈马哈勒·巴赫蒂亚里,,,2020-03-19,False,61,,0,0,61
-364018,科吉卢耶·博韦艾哈迈德,,,2020-03-19,False,60,,0,0,60
-364006,布什尔,,,2020-03-19,False,54,,0,0,54
-3640xx,未公布来源,,,2020-03-19,False,0,,5930,1281,-7211
+364007,德黑兰,,"[{'date': '2020-03-20', 'confirmedNum': 4617, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 4617, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 4397, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 4397, 'confirmedIncr': 0}]",2020-03-20,False,4617,,0,0,4617
+364004,伊斯法罕,,"[{'date': '2020-03-20', 'confirmedNum': 1791, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1791, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 1646, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1646, 'confirmedIncr': 0}]",2020-03-20,False,1791,,0,0,1791
+364021,马赞德兰,,"[{'date': '2020-03-20', 'confirmedNum': 1636, 'curesNum': 0, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1635, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 1552, 'curesNum': 0, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1551, 'confirmedIncr': 0}]",2020-03-20,False,1636,,0,1,1635
+364026,库姆,,"[{'date': '2020-03-20', 'confirmedNum': 1141, 'curesNum': 49, 'deathsNum': 2, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1090, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 1105, 'curesNum': 49, 'deathsNum': 2, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1054, 'confirmedIncr': 0}]",2020-03-20,False,1141,,49,2,1090
+364019,吉兰,,"[{'date': '2020-03-20', 'confirmedNum': 1096, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1096, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 997, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 997, 'confirmedIncr': 0}]",2020-03-20,False,1096,,0,0,1096
+364032,厄尔布尔士,,"[{'date': '2020-03-20', 'confirmedNum': 1062, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1062, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 967, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 967, 'confirmedIncr': 0}]",2020-03-20,False,1062,,0,0,1062
+364022,中央省,,"[{'date': '2020-03-20', 'confirmedNum': 846, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 846, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 829, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 829, 'confirmedIncr': 0}]",2020-03-20,False,846,,0,0,846
+364030,呼罗珊,,"[{'date': '2020-03-20', 'confirmedNum': 759, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 759, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 711, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 711, 'confirmedIncr': 0}]",2020-03-20,False,759,,0,0,759
+364001,东阿塞拜疆,,"[{'date': '2020-03-20', 'confirmedNum': 684, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 684, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 629, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 629, 'confirmedIncr': 0}]",2020-03-20,False,684,,0,0,684
+364012,塞姆南,,"[{'date': '2020-03-20', 'confirmedNum': 645, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 645, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 593, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 593, 'confirmedIncr': 0}]",2020-03-20,False,645,,0,0,645
+364025,亚兹德,,"[{'date': '2020-03-20', 'confirmedNum': 589, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 589, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 540, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 540, 'confirmedIncr': 0}]",2020-03-20,False,589,,0,0,589
+364028,加兹温,,"[{'date': '2020-03-20', 'confirmedNum': 581, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 581, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 573, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 573, 'confirmedIncr': 0}]",2020-03-20,False,581,,0,0,581
+364014,法尔斯,,"[{'date': '2020-03-20', 'confirmedNum': 457, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 457, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 407, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 407, 'confirmedIncr': 0}]",2020-03-20,False,457,,0,0,457
+364020,洛雷斯坦,,"[{'date': '2020-03-20', 'confirmedNum': 409, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 409, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 400, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 400, 'confirmedIncr': 0}]",2020-03-20,False,409,,0,0,409
+364010,胡齐斯坦,,"[{'date': '2020-03-20', 'confirmedNum': 391, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 391, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 381, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 381, 'confirmedIncr': 0}]",2020-03-20,False,391,,0,0,391
+364027,戈勒斯坦,,"[{'date': '2020-03-20', 'confirmedNum': 375, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 375, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 360, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 360, 'confirmedIncr': 0}]",2020-03-20,False,375,,0,0,375
+364002,西阿塞拜疆,,"[{'date': '2020-03-20', 'confirmedNum': 353, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 353, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 326, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 326, 'confirmedIncr': 0}]",2020-03-20,False,353,,0,0,353
+364011,赞詹,,"[{'date': '2020-03-20', 'confirmedNum': 331, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 331, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 287, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 287, 'confirmedIncr': 0}]",2020-03-20,False,331,,0,0,331
+364003,阿尔达比勒,,"[{'date': '2020-03-20', 'confirmedNum': 264, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 264, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 229, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 229, 'confirmedIncr': 0}]",2020-03-20,False,264,,0,0,264
+364016,库尔德斯坦,,"[{'date': '2020-03-20', 'confirmedNum': 215, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 215, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 200, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 200, 'confirmedIncr': 0}]",2020-03-20,False,215,,0,0,215
+364024,哈马丹,,"[{'date': '2020-03-20', 'confirmedNum': 197, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 197, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 175, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 175, 'confirmedIncr': 0}]",2020-03-20,False,197,,0,0,197
+364017,克尔曼沙汗,,"[{'date': '2020-03-20', 'confirmedNum': 163, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 163, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 158, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 158, 'confirmedIncr': 0}]",2020-03-20,False,163,,0,0,163
+364029,南呼罗珊,,"[{'date': '2020-03-20', 'confirmedNum': 163, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 163, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 145, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 145, 'confirmedIncr': 0}]",2020-03-20,False,163,,0,0,163
+364015,克尔曼,,"[{'date': '2020-03-20', 'confirmedNum': 153, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 153, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 141, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 141, 'confirmedIncr': 0}]",2020-03-20,False,153,,0,0,153
+364005,伊拉姆,,"[{'date': '2020-03-20', 'confirmedNum': 148, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 148, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 128, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 128, 'confirmedIncr': 0}]",2020-03-20,False,148,,0,0,148
+364023,霍尔木兹甘,,"[{'date': '2020-03-20', 'confirmedNum': 146, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 146, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 129, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 129, 'confirmedIncr': 0}]",2020-03-20,False,146,,0,0,146
+364031,北呼罗珊,,"[{'date': '2020-03-20', 'confirmedNum': 138, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 138, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 121, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 121, 'confirmedIncr': 0}]",2020-03-20,False,138,,0,0,138
+364013,锡斯坦·俾路支斯坦,,"[{'date': '2020-03-20', 'confirmedNum': 114, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 114, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 106, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 106, 'confirmedIncr': 0}]",2020-03-20,False,114,,0,0,114
+364008,恰哈马哈勒·巴赫蒂亚里,,"[{'date': '2020-03-20', 'confirmedNum': 64, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 64, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 61, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 61, 'confirmedIncr': 0}]",2020-03-20,False,64,,0,0,64
+364018,科吉卢耶·博韦艾哈迈德,,"[{'date': '2020-03-20', 'confirmedNum': 61, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 61, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 60, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 60, 'confirmedIncr': 0}]",2020-03-20,False,61,,0,0,61
+364006,布什尔,,"[{'date': '2020-03-20', 'confirmedNum': 55, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 55, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 54, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 54, 'confirmedIncr': 0}]",2020-03-20,False,55,,0,0,55
+3640xx,未公布来源,,"[{'date': '2020-03-20', 'confirmedNum': 0, 'curesNum': 5930, 'deathsNum': 1430, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': -7360, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 0, 'curesNum': 5930, 'deathsNum': 1430, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': -7360, 'confirmedIncr': 0}]",2020-03-20,False,0,,5930,1430,-7360

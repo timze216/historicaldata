@@ -1,18 +1,18 @@
 id,name,cities,series,updateDate,isTreatingNumClear,confirmedTotal,suspectedTotal,curesTotal,deathsTotal,treatingTotal
-2760NW,北莱茵-威斯特法伦,,,2020-03-19,False,4971,,75,17,4879
-2760BY,巴伐利亚,,,2020-03-19,False,2282,,14,13,2255
-2760BW,巴登-符腾堡,,,2020-03-19,False,2184,,8,11,2165
-2760NI,下萨克森,,,2020-03-19,False,981,,2,1,978
-2760RP,莱茵兰-普法尔茨,,,2020-03-19,False,749,,1,0,748
-2760HE,黑森,,,2020-03-19,False,682,,2,1,679
-2760BE,柏林,,,2020-03-19,False,573,,6,0,567
-2760HH,汉堡,,,2020-03-19,False,432,,1,1,430
-2760SN,萨克森,,,2020-03-19,False,296,,0,0,296
-2760SH,石勒苏益格-荷尔斯泰因,,,2020-03-19,False,253,,0,0,253
-2760BB,勃兰登堡,,,2020-03-19,False,189,,1,0,188
-2760SL,萨尔,,,2020-03-19,False,169,,0,0,169
-2760TH,图林根,,,2020-03-19,False,166,,1,0,165
-2760ST,萨克森-安哈尔特,,,2020-03-19,False,152,,0,0,152
-2760MV,梅克伦堡-前波美拉尼亚,,,2020-03-19,False,100,,0,0,100
-2760HB,不来梅,,,2020-03-19,False,80,,3,0,77
-2760xx,未公布来源,,,2020-03-19,False,0,,0,0,0
+2760NW,北莱茵-威斯特法伦,,"[{'date': '2020-03-20', 'confirmedNum': 5778, 'curesNum': 127, 'deathsNum': 17, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 5634, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 4971, 'curesNum': 75, 'deathsNum': 17, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 4879, 'confirmedIncr': 0}]",2020-03-20,False,5778,,127,17,5634
+2760BY,巴伐利亚,,"[{'date': '2020-03-20', 'confirmedNum': 3107, 'curesNum': 15, 'deathsNum': 13, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 3079, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 2282, 'curesNum': 14, 'deathsNum': 13, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 2255, 'confirmedIncr': 0}]",2020-03-20,False,3107,,15,13,3079
+2760BW,巴登-符腾堡,,"[{'date': '2020-03-20', 'confirmedNum': 2748, 'curesNum': 14, 'deathsNum': 11, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 2723, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 2184, 'curesNum': 8, 'deathsNum': 11, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 2165, 'confirmedIncr': 0}]",2020-03-20,False,2748,,14,11,2723
+2760NI,下萨克森,,"[{'date': '2020-03-20', 'confirmedNum': 1262, 'curesNum': 4, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1258, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 981, 'curesNum': 1, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 980, 'confirmedIncr': 0}]",2020-03-20,False,1262,,4,0,1258
+2760HE,黑森,,"[{'date': '2020-03-20', 'confirmedNum': 813, 'curesNum': 3, 'deathsNum': 2, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 808, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 682, 'curesNum': 2, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 679, 'confirmedIncr': 0}]",2020-03-20,False,813,,3,2,808
+2760RP,莱茵兰-普法尔茨,,"[{'date': '2020-03-20', 'confirmedNum': 801, 'curesNum': 1, 'deathsNum': 2, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 798, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 749, 'curesNum': 1, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 748, 'confirmedIncr': 0}]",2020-03-20,False,801,,1,2,798
+2760BE,柏林,,"[{'date': '2020-03-20', 'confirmedNum': 731, 'curesNum': 6, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 724, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 573, 'curesNum': 6, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 567, 'confirmedIncr': 0}]",2020-03-20,False,731,,6,1,724
+2760HH,汉堡,,"[{'date': '2020-03-20', 'confirmedNum': 586, 'curesNum': 1, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 584, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 432, 'curesNum': 1, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 430, 'confirmedIncr': 0}]",2020-03-20,False,586,,1,1,584
+2760SN,萨克森,,"[{'date': '2020-03-20', 'confirmedNum': 394, 'curesNum': 2, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 392, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 296, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 296, 'confirmedIncr': 0}]",2020-03-20,False,394,,2,0,392
+2760SH,石勒苏益格-荷尔斯泰因,,"[{'date': '2020-03-20', 'confirmedNum': 321, 'curesNum': 1, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 320, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 253, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 253, 'confirmedIncr': 0}]",2020-03-20,False,321,,1,0,320
+2760BB,勃兰登堡,,"[{'date': '2020-03-20', 'confirmedNum': 232, 'curesNum': 1, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 231, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 189, 'curesNum': 1, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 188, 'confirmedIncr': 0}]",2020-03-20,False,232,,1,0,231
+2760TH,图林根,,"[{'date': '2020-03-20', 'confirmedNum': 221, 'curesNum': 3, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 218, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 166, 'curesNum': 1, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 165, 'confirmedIncr': 0}]",2020-03-20,False,221,,3,0,218
+2760SL,萨尔,,"[{'date': '2020-03-20', 'confirmedNum': 217, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 217, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 169, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 169, 'confirmedIncr': 0}]",2020-03-20,False,217,,0,0,217
+2760ST,萨克森-安哈尔特,,"[{'date': '2020-03-20', 'confirmedNum': 188, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 188, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 152, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 152, 'confirmedIncr': 0}]",2020-03-20,False,188,,0,0,188
+2760MV,梅克伦堡-前波美拉尼亚,,"[{'date': '2020-03-20', 'confirmedNum': 133, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 133, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 100, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 100, 'confirmedIncr': 0}]",2020-03-20,False,133,,0,0,133
+2760HB,不来梅,,"[{'date': '2020-03-20', 'confirmedNum': 121, 'curesNum': 3, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 118, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 80, 'curesNum': 3, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 77, 'confirmedIncr': 0}]",2020-03-20,False,121,,3,0,118
+2760xx,未公布来源,,"[{'date': '2020-03-20', 'confirmedNum': 0, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 0, 'confirmedIncr': 0}, {'date': '2020-03-19', 'confirmedNum': 0, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 0, 'confirmedIncr': 0}]",2020-03-20,False,0,,0,0,0

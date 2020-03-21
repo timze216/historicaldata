@@ -1,6 +1,6 @@
 id,name,cities,series,updateDate,isTreatingNumClear,confirmedTotal,suspectedTotal,curesTotal,deathsTotal,treatingTotal
-826ENG,英格兰,,,2020-03-19,False,2182,,0,48,2134
-826SCT,苏格兰,,,2020-03-19,False,227,,0,1,226
-826WLS,威尔士,,,2020-03-19,False,149,,0,0,149
-826NIR,北爱尔兰,,,2020-03-19,False,68,,0,0,68
-8260xx,未公布来源,,,2020-03-19,False,18,,67,44,-93
+826ENG,英格兰,,"[{'date': '2020-03-19', 'confirmedNum': 2756, 'curesNum': 0, 'deathsNum': 128, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 2628, 'confirmedIncr': 0}]",2020-03-20,False,2756,,0,128,2628
+826SCT,苏格兰,,"[{'date': '2020-03-19', 'confirmedNum': 266, 'curesNum': 0, 'deathsNum': 6, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 260, 'confirmedIncr': 0}]",2020-03-20,False,266,,0,6,260
+826WLS,威尔士,,"[{'date': '2020-03-19', 'confirmedNum': 170, 'curesNum': 0, 'deathsNum': 2, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 168, 'confirmedIncr': 0}]",2020-03-20,False,170,,0,2,168
+826NIR,北爱尔兰,,"[{'date': '2020-03-19', 'confirmedNum': 77, 'curesNum': 0, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 76, 'confirmedIncr': 0}]",2020-03-20,False,77,,0,1,76
+8260xx,未公布来源,,"[{'date': '2020-03-19', 'confirmedNum': 0, 'curesNum': 76, 'deathsNum': 7, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': -83, 'confirmedIncr': 0}]",2020-03-20,False,0,,76,7,-83

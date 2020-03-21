@@ -1,56 +1,56 @@
 id,name,cities,series,updateDate,isTreatingNumClear,confirmedTotal,suspectedTotal,curesTotal,deathsTotal,treatingTotal
-8400NY,纽约州,,,2020-03-19,False,4152,,0,20,4132
-8400WA,华盛顿州,,,2020-03-19,False,1187,,1,68,1118
-8400CA,加利福尼亚州,,,2020-03-19,False,870,,6,17,847
-8400NJ,新泽西州,,,2020-03-19,False,427,,1,5,421
-8400FL,佛罗里达州,,,2020-03-19,False,328,,0,8,320
-8400IL,伊利诺伊州,,,2020-03-19,False,295,,2,1,292
-8400LA,路易斯安那州,,,2020-03-19,False,280,,0,8,272
-8400MA,马萨诸塞州,,,2020-03-19,False,256,,1,0,255
-8400CO,科罗拉多州,,,2020-03-19,False,221,,0,3,218
-8400TX,得克萨斯州,,,2020-03-19,False,221,,0,3,218
-8400GA,佐治亚州,,,2020-03-19,False,197,,0,4,193
-8400PA,宾夕法尼亚州,,,2020-03-19,False,157,,0,1,156
-8400MI,密歇根州,,,2020-03-19,False,147,,0,1,146
-8400WI,威斯康星州,,,2020-03-19,False,115,,1,0,114
-8400TN,田纳西州,,,2020-03-19,False,100,,0,0,100
-8400CT,康涅狄格州,,,2020-03-19,False,97,,0,1,96
-8400NC,北卡罗来纳州,,,2020-03-19,False,92,,0,0,92
-8400OH,俄亥俄州,,,2020-03-19,False,89,,0,0,89
-8400MD,马里兰州,,,2020-03-19,False,85,,3,1,81
-8400NV,内华达州,,,2020-03-19,False,84,,0,1,83
-8400VA,弗吉尼亚州,,,2020-03-19,False,79,,0,2,77
-8400MN,明尼苏达州,,,2020-03-19,False,76,,0,0,76
-8400OR,俄勒冈州,,,2020-03-19,False,75,,0,3,72
-8400UT,犹他州,,,2020-03-19,False,66,,0,0,66
-8400SC,南卡罗来纳州,,,2020-03-19,False,60,,0,1,59
-8400AL,亚拉巴马州,,,2020-03-19,False,52,,0,0,52
-8400y0,“钻石公主”号人员,,,2020-03-19,False,47,,0,0,47
-8400ME,缅因州,,,2020-03-19,False,42,,0,0,42
-8400DC,华盛顿哥伦比亚特区,,,2020-03-19,False,40,,0,0,40
-8400IN,印第安纳州,,,2020-03-19,False,39,,0,2,37
-8400IA,艾奥瓦州,,,2020-03-19,False,39,,0,0,39
-8400NH,新罕布什尔州,,,2020-03-19,False,39,,0,0,39
-8400AR,阿肯色州,,,2020-03-19,False,37,,0,0,37
-8400KY,肯塔基州,,,2020-03-19,False,35,,1,1,33
-8400MS,密西西比州,,,2020-03-19,False,34,,0,0,34
-8400RI,罗得岛州,,,2020-03-19,False,33,,0,0,33
-8400OK,俄克拉荷马州,,,2020-03-19,False,31,,0,0,31
-8400NE,内布拉斯加州,,,2020-03-19,False,29,,0,0,29
-8400AZ,亚利桑那州,,,2020-03-19,False,29,,1,0,28
-8400NM,新墨西哥州,,,2020-03-19,False,28,,0,0,28
-8400MO,密苏里州,,,2020-03-19,False,26,,0,1,25
-8400DE,特拉华州,,,2020-03-19,False,26,,0,0,26
-8400KS,堪萨斯州,,,2020-03-19,False,22,,0,1,21
-8400y3,“至尊公主”号人员,,,2020-03-19,False,22,,0,0,22
-8400VT,佛蒙特州,,,2020-03-19,False,19,,0,0,19
-8400WY,怀俄明州,,,2020-03-19,False,18,,0,0,18
-8400HI,夏威夷州,,,2020-03-19,False,16,,0,0,16
-8400MT,蒙大拿州,,,2020-03-19,False,11,,0,0,11
-8400ID,爱达荷州,,,2020-03-19,False,11,,0,0,11
-8400SD,南达科他州,,,2020-03-19,False,11,,0,1,10
-8400AK,阿拉斯加州,,,2020-03-19,False,9,,0,0,9
-8400ND,北达科他州,,,2020-03-19,False,7,,0,0,7
-8400y1,撤侨人员,,,2020-03-19,False,3,,0,0,3
-8400WV,西弗吉尼亚州,,,2020-03-19,False,2,,0,0,2
-8400y2,未公布来源,,,2020-03-19,False,12,,91,8,-87
+8400NY,纽约州,,"[{'date': '2020-03-19', 'confirmedNum': 5711, 'curesNum': 0, 'deathsNum': 38, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 5673, 'confirmedIncr': 0}]",2020-03-20,False,5711,,0,38,5673
+8400WA,华盛顿州,,"[{'date': '2020-03-19', 'confirmedNum': 1376, 'curesNum': 1, 'deathsNum': 74, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1301, 'confirmedIncr': 0}]",2020-03-20,False,1376,,1,74,1301
+8400CA,加利福尼亚州,,"[{'date': '2020-03-19', 'confirmedNum': 1030, 'curesNum': 6, 'deathsNum': 18, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 1006, 'confirmedIncr': 0}]",2020-03-20,False,1030,,6,18,1006
+8400NJ,新泽西州,,"[{'date': '2020-03-19', 'confirmedNum': 742, 'curesNum': 1, 'deathsNum': 9, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 732, 'confirmedIncr': 0}]",2020-03-20,False,742,,1,9,732
+8400FL,佛罗里达州,,"[{'date': '2020-03-19', 'confirmedNum': 432, 'curesNum': 0, 'deathsNum': 9, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 423, 'confirmedIncr': 0}]",2020-03-20,False,432,,0,9,423
+8400IL,伊利诺伊州,,"[{'date': '2020-03-19', 'confirmedNum': 422, 'curesNum': 2, 'deathsNum': 4, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 416, 'confirmedIncr': 0}]",2020-03-20,False,422,,2,4,416
+8400LA,路易斯安那州,,"[{'date': '2020-03-19', 'confirmedNum': 392, 'curesNum': 0, 'deathsNum': 10, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 382, 'confirmedIncr': 0}]",2020-03-20,False,392,,0,10,382
+8400MI,密歇根州,,"[{'date': '2020-03-19', 'confirmedNum': 334, 'curesNum': 0, 'deathsNum': 3, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 331, 'confirmedIncr': 0}]",2020-03-20,False,334,,0,3,331
+8400MA,马萨诸塞州,,"[{'date': '2020-03-19', 'confirmedNum': 328, 'curesNum': 1, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 327, 'confirmedIncr': 0}]",2020-03-20,False,328,,1,0,327
+8400TX,得克萨斯州,,"[{'date': '2020-03-19', 'confirmedNum': 307, 'curesNum': 0, 'deathsNum': 5, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 302, 'confirmedIncr': 0}]",2020-03-20,False,307,,0,5,302
+8400GA,佐治亚州,,"[{'date': '2020-03-19', 'confirmedNum': 287, 'curesNum': 0, 'deathsNum': 10, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 277, 'confirmedIncr': 0}]",2020-03-20,False,287,,0,10,277
+8400CO,科罗拉多州,,"[{'date': '2020-03-19', 'confirmedNum': 227, 'curesNum': 0, 'deathsNum': 4, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 223, 'confirmedIncr': 0}]",2020-03-20,False,227,,0,4,223
+8400PA,宾夕法尼亚州,,"[{'date': '2020-03-19', 'confirmedNum': 206, 'curesNum': 0, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 205, 'confirmedIncr': 0}]",2020-03-20,False,206,,0,1,205
+8400WI,威斯康星州,,"[{'date': '2020-03-19', 'confirmedNum': 160, 'curesNum': 1, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 159, 'confirmedIncr': 0}]",2020-03-20,False,160,,1,0,159
+8400CT,康涅狄格州,,"[{'date': '2020-03-19', 'confirmedNum': 159, 'curesNum': 0, 'deathsNum': 3, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 156, 'confirmedIncr': 0}]",2020-03-20,False,159,,0,3,156
+8400TN,田纳西州,,"[{'date': '2020-03-19', 'confirmedNum': 154, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 154, 'confirmedIncr': 0}]",2020-03-20,False,154,,0,0,154
+8400NC,北卡罗来纳州,,"[{'date': '2020-03-19', 'confirmedNum': 123, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 123, 'confirmedIncr': 0}]",2020-03-20,False,123,,0,0,123
+8400OH,俄亥俄州,,"[{'date': '2020-03-19', 'confirmedNum': 119, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 119, 'confirmedIncr': 0}]",2020-03-20,False,119,,0,0,119
+8400MD,马里兰州,,"[{'date': '2020-03-19', 'confirmedNum': 107, 'curesNum': 3, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 103, 'confirmedIncr': 0}]",2020-03-20,False,107,,3,1,103
+8400VA,弗吉尼亚州,,"[{'date': '2020-03-19', 'confirmedNum': 105, 'curesNum': 0, 'deathsNum': 2, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 103, 'confirmedIncr': 0}]",2020-03-20,False,105,,0,2,103
+8400NV,内华达州,,"[{'date': '2020-03-19', 'confirmedNum': 95, 'curesNum': 0, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 94, 'confirmedIncr': 0}]",2020-03-20,False,95,,0,1,94
+8400MN,明尼苏达州,,"[{'date': '2020-03-19', 'confirmedNum': 89, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 89, 'confirmedIncr': 0}]",2020-03-20,False,89,,0,0,89
+8400OR,俄勒冈州,,"[{'date': '2020-03-19', 'confirmedNum': 88, 'curesNum': 0, 'deathsNum': 3, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 85, 'confirmedIncr': 0}]",2020-03-20,False,88,,0,3,85
+8400SC,南卡罗来纳州,,"[{'date': '2020-03-19', 'confirmedNum': 81, 'curesNum': 0, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 80, 'confirmedIncr': 0}]",2020-03-20,False,81,,0,1,80
+8400UT,犹他州,,"[{'date': '2020-03-19', 'confirmedNum': 80, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 80, 'confirmedIncr': 0}]",2020-03-20,False,80,,0,0,80
+8400AL,亚拉巴马州,,"[{'date': '2020-03-19', 'confirmedNum': 78, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 78, 'confirmedIncr': 0}]",2020-03-20,False,78,,0,0,78
+8400DC,华盛顿哥伦比亚特区,,"[{'date': '2020-03-19', 'confirmedNum': 71, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 71, 'confirmedIncr': 0}]",2020-03-20,False,71,,0,0,71
+8400AR,阿肯色州,,"[{'date': '2020-03-19', 'confirmedNum': 62, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 62, 'confirmedIncr': 0}]",2020-03-20,False,62,,0,0,62
+8400IN,印第安纳州,,"[{'date': '2020-03-19', 'confirmedNum': 60, 'curesNum': 0, 'deathsNum': 2, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 58, 'confirmedIncr': 0}]",2020-03-20,False,60,,0,2,58
+8400ME,缅因州,,"[{'date': '2020-03-19', 'confirmedNum': 52, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 52, 'confirmedIncr': 0}]",2020-03-20,False,52,,0,0,52
+8400MS,密西西比州,,"[{'date': '2020-03-19', 'confirmedNum': 50, 'curesNum': 0, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 49, 'confirmedIncr': 0}]",2020-03-20,False,50,,0,1,49
+8400KY,肯塔基州,,"[{'date': '2020-03-19', 'confirmedNum': 50, 'curesNum': 1, 'deathsNum': 2, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 47, 'confirmedIncr': 0}]",2020-03-20,False,50,,1,2,47
+8400y0,“钻石公主”号人员,,"[{'date': '2020-03-19', 'confirmedNum': 47, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 47, 'confirmedIncr': 0}]",2020-03-20,False,47,,0,0,47
+8400AZ,亚利桑那州,,"[{'date': '2020-03-19', 'confirmedNum': 45, 'curesNum': 1, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 44, 'confirmedIncr': 0}]",2020-03-20,False,45,,1,0,44
+8400IA,艾奥瓦州,,"[{'date': '2020-03-19', 'confirmedNum': 44, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 44, 'confirmedIncr': 0}]",2020-03-20,False,44,,0,0,44
+8400NH,新罕布什尔州,,"[{'date': '2020-03-19', 'confirmedNum': 44, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 44, 'confirmedIncr': 0}]",2020-03-20,False,44,,0,0,44
+8400OK,俄克拉荷马州,,"[{'date': '2020-03-19', 'confirmedNum': 44, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 44, 'confirmedIncr': 0}]",2020-03-20,False,44,,0,0,44
+8400RI,罗得岛州,,"[{'date': '2020-03-19', 'confirmedNum': 44, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 44, 'confirmedIncr': 0}]",2020-03-20,False,44,,0,0,44
+8400MO,密苏里州,,"[{'date': '2020-03-19', 'confirmedNum': 39, 'curesNum': 0, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 38, 'confirmedIncr': 0}]",2020-03-20,False,39,,0,1,38
+8400KS,堪萨斯州,,"[{'date': '2020-03-19', 'confirmedNum': 35, 'curesNum': 0, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 34, 'confirmedIncr': 0}]",2020-03-20,False,35,,0,1,34
+8400NM,新墨西哥州,,"[{'date': '2020-03-19', 'confirmedNum': 35, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 35, 'confirmedIncr': 0}]",2020-03-20,False,35,,0,0,35
+8400DE,特拉华州,,"[{'date': '2020-03-19', 'confirmedNum': 30, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 30, 'confirmedIncr': 0}]",2020-03-20,False,30,,0,0,30
+8400NE,内布拉斯加州,,"[{'date': '2020-03-19', 'confirmedNum': 29, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 29, 'confirmedIncr': 0}]",2020-03-20,False,29,,0,0,29
+8400HI,夏威夷州,,"[{'date': '2020-03-19', 'confirmedNum': 26, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 26, 'confirmedIncr': 0}]",2020-03-20,False,26,,0,0,26
+8400ID,爱达荷州,,"[{'date': '2020-03-19', 'confirmedNum': 23, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 23, 'confirmedIncr': 0}]",2020-03-20,False,23,,0,0,23
+8400VT,佛蒙特州,,"[{'date': '2020-03-19', 'confirmedNum': 22, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 22, 'confirmedIncr': 0}]",2020-03-20,False,22,,0,0,22
+8400y3,“至尊公主”号人员,,"[{'date': '2020-03-19', 'confirmedNum': 22, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 22, 'confirmedIncr': 0}]",2020-03-20,False,22,,0,0,22
+8400ND,北达科他州,,"[{'date': '2020-03-19', 'confirmedNum': 19, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 19, 'confirmedIncr': 0}]",2020-03-20,False,19,,0,0,19
+8400WY,怀俄明州,,"[{'date': '2020-03-19', 'confirmedNum': 18, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 18, 'confirmedIncr': 0}]",2020-03-20,False,18,,0,0,18
+8400SD,南达科他州,,"[{'date': '2020-03-19', 'confirmedNum': 14, 'curesNum': 0, 'deathsNum': 1, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 13, 'confirmedIncr': 0}]",2020-03-20,False,14,,0,1,13
+8400MT,蒙大拿州,,"[{'date': '2020-03-19', 'confirmedNum': 11, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 11, 'confirmedIncr': 0}]",2020-03-20,False,11,,0,0,11
+8400AK,阿拉斯加州,,"[{'date': '2020-03-19', 'confirmedNum': 9, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 9, 'confirmedIncr': 0}]",2020-03-20,False,9,,0,0,9
+8400y1,撤侨人员,,"[{'date': '2020-03-19', 'confirmedNum': 3, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 3, 'confirmedIncr': 0}]",2020-03-20,False,3,,0,0,3
+8400WV,西弗吉尼亚州,,"[{'date': '2020-03-19', 'confirmedNum': 2, 'curesNum': 0, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 2, 'confirmedIncr': 0}]",2020-03-20,False,2,,0,0,2
+8400y2,未公布来源,,"[{'date': '2020-03-19', 'confirmedNum': 205, 'curesNum': 104, 'deathsNum': 0, 'curesRatio': 0, 'deathsRatio': 0, 'treatingNum': 101, 'confirmedIncr': 0}]",2020-03-20,False,205,,104,0,101
