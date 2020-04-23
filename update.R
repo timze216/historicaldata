@@ -77,9 +77,9 @@ city$city = trans(city$city,f_c)
 
 Dataframe_2_S3 <- function(data){
   S3 <- list(
-    data = city,
-    province = province,
-    global = worldwide,
+    data = unique(city),
+    province = unique(province),
+    global = unique(worldwide),
     time = max(data$time) 
   )
   class(S3) <- 'nCov2019History'
