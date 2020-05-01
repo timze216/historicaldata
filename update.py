@@ -45,7 +45,11 @@ clean = pd.read_csv('lastest/clean.csv')
 #tturl_orig = 'https://i.snssdk.com/forum/home/v1/info/?forum_id=1656784762444839'
 print('getting data ...')
 tturl_github = 'https://raw.githubusercontent.com/canghailan/Wuhan-2019-nCoV/master/Wuhan-2019-nCoV.csv'
-tt = pd.read_csv(tturl_github)
+df = pd.read_csv(tturl_github)
+df1 = df[df.date<='2020-04-27']
+df2 = df[df.date>'2020-04-27']
+df2.columns = ['date',  'countryCode', 'country','province', 'provinceCode', 'city','cityCode', 'confirmed', 'suspected', 'cured', 'dead']
+tt = pd.concat([df1, df2])
 tt.to_csv('lastest/'+today+'.csv',index=False)
 columns = ['date','country','province','city','confirmed','suspected', 'cured', 'dead']
 tt = tt[columns]
@@ -53,7 +57,7 @@ tt = tt[tt.date == yesterday]
 
 # 是否需要更新：
 if max(clean.date) < yesterday:
-    clean = clean.append(tt)
+    clean = pd.concat([clean, tt])
     clean.to_csv('lastest/clean.csv',index=False)
     extract_data(clean)
     os.system('Rscript update.R')
