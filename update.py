@@ -48,7 +48,7 @@ tturl_github = 'https://raw.githubusercontent.com/canghailan/Wuhan-2019-nCoV/mas
 df = pd.read_csv(tturl_github)
 df1 = df[df.date<='2020-04-27']
 df2 = df[df.date>'2020-04-27']
-df2.columns = ['date',  'countryCode', 'country','province', 'provinceCode', 'city','cityCode', 'confirmed', 'suspected', 'cured', 'dead']
+df2.columns = ['date',  'countryCode', 'country','provinceCode', 'province', 'cityCode','city', 'confirmed', 'suspected', 'cured', 'dead']
 tt = pd.concat([df1, df2])
 tt.to_csv('lastest/'+today+'.csv',index=False)
 columns = ['date','country','province','city','confirmed','suspected', 'cured', 'dead']
