@@ -1,7 +1,7 @@
 name: toutiao
 
 on:
-  watch:
+        #watch:
   schedule:
     - cron: '30 01 * * *'
       
