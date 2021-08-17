@@ -2,8 +2,8 @@ name: toutiao
 
 on:
         #watch:
-  schedule:
-    - cron: '30 01 * * *'
+#  schedule:
+#    - cron: '30 01 * * *'
       
 jobs:
   build:
